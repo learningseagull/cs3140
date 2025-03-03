@@ -1,6 +1,6 @@
 import java.util.*;
 
-// PART A - Dictionary & WordValidator Fixes and Tests
+
 class Dictionary {
     private Set<String> words;
     
@@ -27,7 +27,7 @@ class WordValidator {
     }
 }
 
-// JUnit Test for Dictionary
+
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
@@ -49,7 +49,7 @@ class DictionaryTest {
     }
 }
 
-// PART B - GuessResult Implementation and Testing
+
 enum LetterResult { GRAY, GREEN, YELLOW }
 
 class GuessResult {
@@ -88,7 +88,7 @@ class GuessResult {
     }
 }
 
-// JUnit Test for GuessResult
+
 class GuessResultTest {
     @Test
     void testGetLetterResults() {
@@ -97,7 +97,7 @@ class GuessResultTest {
     }
 }
 
-// PART C - Game Implementation and Testing
+
 class Game {
     private String answer;
     private Dictionary dictionary;
@@ -132,7 +132,7 @@ class Game {
     }
 }
 
-// JUnit Test for Game
+
 class GameTest {
     @Test
     void testSubmitGuess() throws Exception {
